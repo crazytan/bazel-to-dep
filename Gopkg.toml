@@ -1,0 +1,12 @@
+[[constraint]]
+  branch = "master"
+  name = "github.com/google/skylark"
+
+[[constraint]]
+  version = "1.1.0"
+  name = "github.com/pelletier/go-toml"
+
+[prune]
+  non-go = true
+  unused-packages = true
+  go-tests = true
